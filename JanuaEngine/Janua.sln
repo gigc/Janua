@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JanuaRuntime", "JanuaRuntime\JanuaRuntime.vcxproj", "{701B2AA8-1DF5-44F4-A41F-7250FE714A38}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tgcviewer-cpp", "tgcviewer-cpp\tgcviewer-cpp.vcxproj", "{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PVSPreprocessor", "PVSPreprocessor\PVSPreprocessor.vcxproj", "{276FDF59-87A1-418F-9342-3E6EA4EEF941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +61,24 @@ Global
 		{701B2AA8-1DF5-44F4-A41F-7250FE714A38}.Release|Win32.ActiveCfg = Release|Win32
 		{701B2AA8-1DF5-44F4-A41F-7250FE714A38}.Release|Win32.Build.0 = Release|Win32
 		{701B2AA8-1DF5-44F4-A41F-7250FE714A38}.Release|x64.ActiveCfg = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Debug|Win32.Build.0 = Debug|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Debug|x64.ActiveCfg = Debug|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Profile|Win32.ActiveCfg = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Profile|Win32.Build.0 = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Profile|x64.ActiveCfg = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Release|Win32.ActiveCfg = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Release|Win32.Build.0 = Release|Win32
+		{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}.Release|x64.ActiveCfg = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Debug|Win32.ActiveCfg = Debug|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Debug|Win32.Build.0 = Debug|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Debug|x64.ActiveCfg = Debug|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Profile|Win32.ActiveCfg = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Profile|Win32.Build.0 = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Profile|x64.ActiveCfg = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Release|Win32.ActiveCfg = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Release|Win32.Build.0 = Release|Win32
+		{276FDF59-87A1-418F-9342-3E6EA4EEF941}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

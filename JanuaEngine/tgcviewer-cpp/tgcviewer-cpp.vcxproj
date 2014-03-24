@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Examples\Example1\Example1.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\BorderBox.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\ExampleEditor.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\Grid.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\EditorBox.cpp" />
+    <ClCompile Include="Examples\ExampleOCEngine1\ExampleCreateRawSceneXML.cpp" />
+    <ClCompile Include="Examples\ExampleOCEngine1\ExampleOCEngine1.cpp" />
+    <ClCompile Include="Examples\ExampleOCEngine1\ExampleOCEngineFPSView.cpp" />
+    <ClCompile Include="Examples\ExampleOCEngine1\Voxel.cpp" />
+    <ClCompile Include="Examples\ExampleSprite\ExampleSprite.cpp" />
+    <ClCompile Include="Examples\ExamplesUI\ExampleModifier.cpp" />
+    <ClCompile Include="Examples\ExamplesUI\ExampleUI.cpp" />
+    <ClCompile Include="Examples\ExampleTgcBox\ExampleTgcBox.cpp" />
+    <ClCompile Include="Examples\ExampleVB\ExampleVB.cpp" />
+    <ClCompile Include="Examples\ExampleVoxel\ExampleVoxel.cpp" />
+    <ClCompile Include="Examples\ExampleVoxel\TgcVoxel.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcAnimatedSprite.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcFont.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcFontRenderer.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcSprite.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcText2d.cpp" />
+    <ClCompile Include="TgcViewer\Example\TgcExample.cpp" />
+    <ClCompile Include="TgcViewer\GuiController.cpp" />
+    <ClCompile Include="TgcViewer\Input\TgcFpsCamera.cpp" />
+    <ClCompile Include="TgcViewer\Input\TgcInput.cpp" />
+    <ClCompile Include="TgcViewer\Math\Color.cpp" />
+    <ClCompile Include="TgcViewer\Math\FastMath.cpp" />
+    <ClCompile Include="TgcViewer\Math\Matrix4.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector2.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector3.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector4.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcEffect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcIndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcInputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcRenderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcRendererFactory.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcVertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Shaders\TgcShaders.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcDebugBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBoundingBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcMesh.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcParserUtils.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcScene.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneData.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneParser.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcTexture.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGui.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiButton.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiItem.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiSlider.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifierItem.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifiers.cpp" />
+    <ClCompile Include="TgcViewer\Ui\TgcLogger.cpp" />
+    <ClCompile Include="TgcViewer\Ui\TgcUserVars.cpp" />
+    <ClCompile Include="TgcViewer\Windows\HighResolutionTimer.cpp" />
+    <ClCompile Include="TgcViewer\Windows\WindowHandler.cpp" />
+    <ClCompile Include="TgcViewer\Xml\pugixml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Example1\Example1.h" />
+    <ClInclude Include="Examples\ExampleEditor\BorderBox.h" />
+    <ClInclude Include="Examples\ExampleEditor\ExampleEditor.h" />
+    <ClInclude Include="Examples\ExampleEditor\Grid.h" />
+    <ClInclude Include="Examples\ExampleEditor\EditorBox.h" />
+    <ClInclude Include="Examples\ExampleOCEngine1\ExampleCreateRawSceneXML.h" />
+    <ClInclude Include="Examples\ExampleOCEngine1\ExampleOCEngine1.h" />
+    <ClInclude Include="Examples\ExampleOCEngine1\ExampleOCEngineFPSView.h" />
+    <ClInclude Include="Examples\ExampleOCEngine1\Voxel.h" />
+    <ClInclude Include="Examples\ExampleSprite\ExampleSprite.h" />
+    <ClInclude Include="Examples\ExamplesUI\ExampleModifier.h" />
+    <ClInclude Include="Examples\ExamplesUI\ExampleUI.h" />
+    <ClInclude Include="Examples\ExampleTgcBox\ExampleTgcBox.h" />
+    <ClInclude Include="Examples\ExampleVB\ExampleVB.h" />
+    <ClInclude Include="Examples\ExampleVoxel\ExampleVoxel.h" />
+    <ClInclude Include="Examples\ExampleVoxel\TgcVoxel.h" />
+    <ClInclude Include="Examples\TgcViewerIncludes.h" />
+    <ClInclude Include="TgcViewer\2D\TgcAnimatedSprite.h" />
+    <ClInclude Include="TgcViewer\2D\TgcFont.h" />
+    <ClInclude Include="TgcViewer\2D\TgcFontRenderer.h" />
+    <ClInclude Include="TgcViewer\2D\TgcSprite.h" />
+    <ClInclude Include="TgcViewer\2D\TgcText2d.h" />
+    <ClInclude Include="TgcViewer\Example\TgcExample.h" />
+    <ClInclude Include="TgcViewer\globals.h" />
+    <ClInclude Include="TgcViewer\GuiController.h" />
+    <ClInclude Include="TgcViewer\Input\TgcFpsCamera.h" />
+    <ClInclude Include="TgcViewer\Input\TgcInput.h" />
+    <ClInclude Include="TgcViewer\Math\Color.h" />
+    <ClInclude Include="TgcViewer\Math\FastMath.h" />
+    <ClInclude Include="TgcViewer\Math\Matrix4.h" />
+    <ClInclude Include="TgcViewer\Math\Vector2.h" />
+    <ClInclude Include="TgcViewer\Math\Vector3.h" />
+    <ClInclude Include="TgcViewer\Math\Vector4.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcEffect.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcIndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcInputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRenderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererFactory.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererGlobals.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcVertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Shaders\TgcShaders.h" />
+    <ClInclude Include="TgcViewer\stdafx.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcDebugBox.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBoundingBox.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBox.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcMesh.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcParserUtils.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcScene.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneData.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneParser.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcTexture.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGui.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiButton.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiItem.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiSlider.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifierItem.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifiers.h" />
+    <ClInclude Include="TgcViewer\Ui\TgcLogger.h" />
+    <ClInclude Include="tgcviewer\ui\tgcuservars.h" />
+    <ClInclude Include="TgcViewer\Windows\HighResolutionTimer.h" />
+    <ClInclude Include="TgcViewer\Windows\WindowHandler.h" />
+    <ClInclude Include="TgcViewer\Xml\pugiconfig.hpp" />
+    <ClInclude Include="TgcViewer\Xml\pugixml.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.vcxproj">
+      <Project>{477f3f9a-4409-4721-85b4-a4422aa7737e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\JanuaEngine\JanuaEngine.vcxproj">
+      <Project>{0485f5f7-1561-44d7-b28b-137f0e70d6aa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\JanuaRuntime\JanuaRuntime.vcxproj">
+      <Project>{701b2aa8-1df5-44f4-a41f-7250fe714a38}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Media\Examples\TgcModels\Box\Box-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\Box\Textures\granito.jpg" />
+    <None Include="Media\Examples\TgcModels\CamionCemento\CamionCemento-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\CamionCemento\Textures\cement_trailer.jpg" />
+    <None Include="Media\Examples\TgcModels\CamionCemento\Textures\Truc.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Deposito-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\box1.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\box2.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\box3.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\box4.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\boxMetal.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\floor1.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\wall2.jpg" />
+    <None Include="Media\Examples\TgcModels\Deposito\Textures\wood_door_12.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\EscenarioPortal-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\brick3_5.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\concrete1_2.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\floor1_4.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\floor2_3.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\FumDallage02_outgame.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\FumDallage05_outgame.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\FumGridDark_outgame.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\FyAccCaisse_outgame.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\F_tapis_carre_outgame.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\gunpowder.bmp" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\lite1.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\MetalMech1.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\q1comp4.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\RippleDRelief.png" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\stair1.jpg" />
+    <None Include="Media\Examples\TgcModels\EscenarioPortal\Textures\wastelt1glow.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\NormalMapRoom2-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\auvBG.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\bench.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\closet.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Granito.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Medievil Stonework.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Slate Tiles.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Stones.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Stones2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Tech Plate 2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Tech Plate 3.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Tech Plate 4.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Tundra.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom2\Textures\Well Preserved Chesterfield.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\NormalMapRoomObstaculos-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Granito.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Medievil Stonework.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Slate Tiles.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Stones.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Stones2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Tech Plate 2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Tech Plate 3.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Tech Plate 4.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Tundra.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\Well Preserved Chesterfield.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomObstaculos\Textures\woodceiling1a.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\NormalMapRoomSimple-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Granito.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Medievil Stonework.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Slate Tiles.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Stones.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Stones2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Tech Plate 2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Tech Plate 3.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Tech Plate 4.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Tundra.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\Well Preserved Chesterfield.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoomSimple\Textures\woodceiling1a.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\NormalMapRoom-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Granito.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Granito_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Medievil Stonework.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Medievil Stonework_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Slate Tiles.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Slate Tiles_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Stones.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Stones2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Stones2_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Stones_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 2.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 2_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 3.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 3_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 4.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tech Plate 4_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tundra.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Tundra_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\wastelt1glow.jpg" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Well Preserved Chesterfield.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Well Preserved Chesterfield_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Worn Temple Wall.png" />
+    <None Include="Media\Examples\TgcModels\NormalMapRoom\Textures\Worn Temple Wall_NormalMap.png" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\emptyLightMap.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight0.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight1.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight4.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight5.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight6.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight7.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\LightMaps\qlight8.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\QuakeMap-TgcScene.xml" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard04.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard09_c3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard09_e.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard09_e2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard09_l2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\baseboard09_o3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks11b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks11bbroke3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks15.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks17.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks17floor2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks18b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks18c.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\blocks18c_3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\ceilingtechplain.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\center2trn.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\chapthroat.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\chapthroat2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\chapthroatooz.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\computer_blocks17.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\demon_block15fx.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\dirt2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\flame1.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\flame2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\gratetorch2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\gratetorch2b.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\inteldimclouds.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\iron01_e.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\iron01_ntech3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\killblock.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\killblockgeomtrn.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\killblock_i.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\killblock_i4.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\killsky_1.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1archfinalc_top.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1archfinald_bot.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1archfinald_mid.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1columna2R.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1tower4.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1tower4_a.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\km_arena1tower_short.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\largeblock3b3broke.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\largerblock3b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\largerblock3blood.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\largerblock3b_ow.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\lavahell.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\lion.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\lion_m.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\major_h_st.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\major_st.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\metalbridge06.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\metalbridge06broke.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\metaldemonkillblock.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\metalsupport4b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\metalsupsolid.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\pentagram_light1.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\pitted_rust.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\pitted_rust2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\pitted_rust3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\protobanner.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skin6.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull4.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skullarch_a.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skullarch_b.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skullarch_c.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skullsvertgray02b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_a.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_b.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_c.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_d.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_e.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\skull_door_f.JPG" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\slateroofc.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\storch_tall.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\supportborder_blue_b.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\supportborder_blue_c.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\surface8.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\tongue.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\visor_st.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\wallhead02.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\woodceiling1a.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\woodceiling1b_dark.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\xian_tourneyarch_inside2.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\xstairtop4.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\xstairtop4bbrn.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\xstepborder3.jpg" />
+    <None Include="Media\Examples\TgcModels\QuakeRoom1\Textures\xstepborder3brn.jpg" />
+    <None Include="Media\Examples\TgcModels\Triangle\Textures\granito.jpg" />
+    <None Include="Media\Examples\TgcModels\Triangle\Triangle-TgcScene.xml" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_12.bmp" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_12.csv" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_16.bmp" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_16.csv" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_20.bmp" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_20.csv" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_26.bmp" />
+    <None Include="Media\TgcViewer\Fonts\Microsoft_Sans_Serif_26.csv" />
+    <None Include="Media\TgcViewer\Shaders\DirectX10\GeneralShaders.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\DirectX10\Text2dShader.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\DirectX10\TgcMeshShader.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\DirectX11\GeneralShaders.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\DirectX11\Text2dShader.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\DirectX11\TgcMeshShader.hlsl" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_DiffuseMap.ps" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_DiffuseMap.vs" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_DiffuseMapAndLightmap.ps" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_DiffuseMapAndLightmap.vs" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_VertexColor.ps" />
+    <None Include="Media\TgcViewer\Shaders\OpenGL\TgcMeshShader_VertexColor.vs" />
+    <None Include="Media\TgcViewer\Ui\checkbox_checked.png" />
+    <None Include="Media\TgcViewer\Ui\checkbox_unchecked.png" />
+    <None Include="Media\TgcViewer\Ui\gui_palette.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}</ProjectGuid>
+    <RootNamespace>tgcviewercpp</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(SolutionDir);$(ProjectDir);$(WindowsSDK_IncludePath);$(VC_IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir);$(ProjectDir);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

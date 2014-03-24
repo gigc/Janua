@@ -1,0 +1,21 @@
+precision mediump float;
+
+varying vec2 vTexcoord;
+varying vec4 vNormal;
+varying vec4 vColor;
+
+uniform sampler2D texDiffuseMap;
+
+void main() {
+        
+	//Obtener color de Texel
+	vec4 color = texture2D(texDiffuseMap, vTexcoord);
+	
+	//Alpha-Test
+	if(color.a < 0.1) {
+		discard;
+	}
+	
+	//Color final
+	gl_FragColor = color;
+}

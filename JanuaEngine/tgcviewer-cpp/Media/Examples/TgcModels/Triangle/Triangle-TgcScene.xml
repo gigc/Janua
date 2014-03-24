@@ -1,0 +1,26 @@
+<tgcScene>
+	<name>TriangleScene</name>
+	<texturesExport enabled='true' dir='Textures'/>
+	<lightmapExport enabled='false' dir='LightMaps'/>
+	<materials count='1'>
+		<m name='01 - Default' type='Standardmaterial'>
+			<ambient>[150.0,150.0,150.0,255.0]</ambient>
+			<diffuse>[150.0,150.0,150.0,255.0]</diffuse>
+			<specular>[229.5,229.5,229.5,255.0]</specular>
+			<opacity>100.0</opacity>
+			<bitmap uvTiling='[1.0,1.0]' uvOffset='[0.0,0.0]'>granito.jpg</bitmap>
+		</m>
+	</materials>
+	<meshes count='1' >
+		<mesh name='Triangle' pos='[-2.7821,-1.53838,-12.4761]' matId='0' color='[57.0,8.0,136.0]' visibility='1.0' lightmap=''>
+			<coordinatesIdx count='3'>0 1 2 </coordinatesIdx>
+			<textCoordsIdx count='3'>0 1 2 </textCoordsIdx>
+			<colorsIdx count='3'>0 0 0 </colorsIdx>
+			<matIds count='1'>0</matIds>
+			<vertices count='9'> 0 0 0 0 100 0 100 0 0 </vertices>
+			<normals count='3'>1 0 0 </normals>
+			<texCoords count='3'>0 0 0 1 1 1 </texCoords>
+			<colors count='3'>255 255 255 </colors>
+		</mesh>
+	</meshes>
+</tgcScene>

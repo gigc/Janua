@@ -1,0 +1,26 @@
+<tgcScene>
+	<name>Scene01</name>
+	<texturesExport enabled='true' dir='Textures'/>
+	<lightmapExport enabled='false' dir='LightMaps'/>
+	<materials count='1'>
+		<m name='01 - Default' type='Standardmaterial'>
+			<ambient>[150.0,150.0,150.0,255.0]</ambient>
+			<diffuse>[150.0,150.0,150.0,255.0]</diffuse>
+			<specular>[229.5,229.5,229.5,255.0]</specular>
+			<opacity>100.0</opacity>
+			<bitmap uvTiling='[1.0,1.0]' uvOffset='[0.0,0.0]'>granito.jpg</bitmap>
+		</m>
+	</materials>
+	<meshes count='1' >
+		<mesh name='Box' pos='[-2.7821,-1.53838,-12.4761]' matId='0' color='[57.0,8.0,136.0]' visibility='1.0' lightmap=''>
+			<coordinatesIdx count='36'>0 2 3 3 1 0 4 5 7 7 6 4 0 1 5 5 4 0 1 3 7 7 5 1 3 2 6 6 7 3 2 0 4 4 6 2 </coordinatesIdx>
+			<textCoordsIdx count='36'>9 11 10 10 8 9 8 9 11 11 10 8 4 5 7 7 6 4 0 1 3 3 2 0 4 5 7 7 6 4 0 1 3 3 2 0 </textCoordsIdx>
+			<colorsIdx count='36'>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colorsIdx>
+			<matIds count='1'>0</matIds>
+			<vertices count='24'>-20.0107 -12.4761 -20.216 14.4465 -12.4761 -20.216 -20.0107 -12.4761 17.1393 14.4465 -12.4761 17.1393 -20.0107 15.0247 -20.216 14.4465 15.0247 -20.216 -20.0107 15.0247 17.1393 14.4465 15.0247 17.1393 </vertices>
+			<normals count='24'>0.0 0.0 -1.5708 0.0 0.0 -1.5708 0.0 0.0 -1.5708 0.0 0.0 -1.5708 0.0 0.0 1.5708 0.0 0.0 1.5708 0.0 0.0 1.5708 0.0 0.0 1.5708 </normals>
+			<texCoords count='24'>0.0 0.0 1.0 0.0 0.0 -1.0 1.0 -1.0 0.0 0.0 1.0 0.0 0.0 -1.0 1.0 -1.0 0.0 0.0 1.0 0.0 0.0 -1.0 1.0 -1.0 </texCoords>
+			<colors count='3'>255 255 255 </colors>
+		</mesh>
+	</meshes>
+</tgcScene>
