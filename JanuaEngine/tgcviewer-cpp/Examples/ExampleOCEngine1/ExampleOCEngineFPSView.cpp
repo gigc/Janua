@@ -130,8 +130,8 @@ void ExampleOCEngineFPSView::init()
 		fwrite( buffer, 1, allocatedSize, file);
 		fclose(file);
 
-
-		delete [] buffer;
+		janua_handler_load_database(&handler, buffer);
+//		delete [] buffer;
 	}
 
 	
@@ -278,7 +278,7 @@ void ExampleOCEngineFPSView::init()
 	currentCellBox->create();
 
 	//Create pool of current portals box
-	for(unsigned int i = 0; i < 100; i++)
+	for(unsigned int i = 0; i < 1000; i++)
 	{
 		TgcBox* portalBox = new TgcBox();
 		portalBox->color = VoxelGroup::randomAdaptColor(Color::DarkGreen);
@@ -287,7 +287,7 @@ void ExampleOCEngineFPSView::init()
 	}
 
 	//Create pool of current cell neighbours box
-	for(unsigned int i = 0; i < 100; i++)
+	for(unsigned int i = 0; i < 1000; i++)
 	{
 		TgcBox* box = new TgcBox();
 		box->color = VoxelGroup::randomAdaptColor(Color::Magenta);
@@ -296,7 +296,7 @@ void ExampleOCEngineFPSView::init()
 	}
 
 	//Create pool of current visible cells box
-	for(unsigned int i = 0; i < 100; i++)
+	for(unsigned int i = 0; i < 1000; i++)
 	{
 		TgcBox* box = new TgcBox();
 		box->color = VoxelGroup::randomAdaptColor(Color::Violet);
